@@ -1,0 +1,59 @@
+body {
+    
+    background-image: url('../css/clock1.jpg');
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    text-transform: uppercase;
+  }
+  
+  #clock {
+    font-size: 45px;
+    padding: 0.5em 0em;
+  }
+  
+  #not-clock {
+    font-size: 80px;
+    padding: 0.5em 0em;
+  }
+  
+  #day {
+    font-size: 40px;
+    padding: 0em;
+  }
+  
+  #date {
+    font-size: 45px;
+    padding: 0.5em 0em;  
+  }
+  
+  @media (max-width:510px) {
+    #clock {
+      font-size:20px;
+    }
+    #not-clock {
+      font-size:20px;
+    }
+    #day {
+      font-size: 20px;
+    }
+    #date {
+      font-size: 20px;
+    }
+    span {
+      margin-left:10px;
+    }
+  }
+  
+  @media (min-width:1300px) {
+    #clock {
+      font-size:80px;
+    }
+    #day {
+      font-size: 80px;
+    }
+    #date {
+      font-size: 80px;
+    }
+  }
